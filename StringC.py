@@ -1,0 +1,13 @@
+X,Y=input().split()
+X=str(X)
+Y=str(Y)
+x=j
+y="".join(sorted(Y))
+if(len(x)<len(y)):
+    print(x)
+else:
+    if(len(x)>len(y)):
+        print(y)
+    else:
+        if(len(x)==len(y)):
+            print(x)
