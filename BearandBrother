@@ -1,0 +1,10 @@
+n,s=map(int,input().split())
+
+count=0
+while n<=s:
+        n=n*3
+        s=s*2
+        
+        count=count+1
+        
+print(count)
