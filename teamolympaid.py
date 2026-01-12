@@ -9,7 +9,7 @@ for i in range(len(t)):
     elif t[i]==2:
         math.append(i+1)
     elif t[i]==3:
-        math.append(i+1)
+        sport.append(i+1)
 w=min(len(prog),len(math),len(sport))
 print(w)
 for i in range(w):
