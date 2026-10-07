@@ -1,0 +1,5 @@
+plt.subplot(2,2,4)
+plt.subplot(2,2,1)
+plt.subplot(2,2,3)
+plt.subplot(2,2,2)
+plt.plot(x,y)
